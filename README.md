@@ -22,3 +22,22 @@ Jednoduchá aplikace pro správu úkolů postavená na **Django** frameworku. Um
    ```sh
    git clone https://github.com/HuskyPath87/task-manager.git
    cd task-manager
+
+2. Vytvoř a aktivuj virtuální prostředí:
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # Na Windows: venv\Scripts\activate
+
+3. Nainstaluj závislosti:
+   ```sh
+   pip install -r requirements.txt
+
+5. Proveď migrace databáze:
+   ```sh
+   python manage.py migrate
+
+7. Spusť lokální server:
+   ```sh
+   python manage.py runserver
+
+
